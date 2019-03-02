@@ -69,7 +69,7 @@ print(f"Greatest Increase in Profits: {months[indexInc+1]} (${change[indexInc]})
 indexDec = getDec()
 print(f"Greatest Increase in Profits: {months[indexDec+1]} (${change[indexDec]})")
 
-file = open("Financial Analysis.txt", "w")
+file = open("Financial_Analysis.txt", "w")
 file.write("Financial Analysis\n")
 file.write("------------------------\n")
 file.write(f"Total Months: {monthsTotal}\n")
